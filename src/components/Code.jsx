@@ -1,8 +1,8 @@
-import React, { useId } from "react";
+import React from "react";
 import { Outlet, Link } from "react-router-dom";
-import Projects from "./code/Projects";
-import CodeSkills from "./code/CodeSkills";
-import SoftSkills from "./code/SoftSkills";
+// import Projects from "./code/Projects";
+// import CodeSkills from "./code/CodeSkills";
+// import SoftSkills from "./code/SoftSkills";
 
 function Code() {
   // let id = useId();
