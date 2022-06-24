@@ -1,16 +1,10 @@
-.App {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -21,18 +15,123 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.Navbar {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #282c34;
+  padding: 0.5em;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+  z-index: 2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Navbar-mini {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #282c34;
+  padding: 0.5em;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+  z-index: 2;
+}
+
+.Navbar-mini:hover {
+  cursor: pointer;
+}
+
+.Navbar-item-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Navbar-item-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Footer {
+  position: relative;
+  bottom: 0em;
+  width: 100%;
+  /* height: calc(1px); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: #282c34;
+  margin-top: 2em;
+  margin-bottom: 0.25em;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 250ms ease-in-out;
+}
+
+.nav-link {
+  padding: 0.25em;
+  right: 0px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 250ms ease-in-out;
+}
+.nav-link:hover {
+  /* color: #dedede; */
+  /* background-color: #4f4f4f; */
+
+  background-color: #dedede;
+  color: #282c34;
+  border-radius: 5px;
+}
+
+.nav-link.active {
+  transition: 250ms ease-in-out;
+  background-color: #ffffff;
+  color: #282c34;
+  border-radius: 5px;
+}
+
+.social-media-icon {
+  padding: 0.25em;
+}
+
+/* .social-media-icon:hover {
+  transform: scale(2);
+} */
+
+.link:hover {
+  transition: 250ms ease-in-out;
+  color: #ffffffaa;
+}
+
+.logo {
+  max-inline-size: calc(50px);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.svg {
+  padding: 2px;
+  width: 10%;
+  height: auto;
+}
+
+/* .svg:hover {
+	transform: scale(200%);
+} */
+
+.page {
+  padding: 1.5em;
+  z-index: 1;
+}
+
+.date {
+  color: #ff0000;
 }
