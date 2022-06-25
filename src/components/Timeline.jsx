@@ -9,13 +9,13 @@ import { FaLaptopCode } from "react-icons/fa";
 import { RiCheckboxBlankCircleLine } from "react-icons/ri";
 import { MdSchool } from "react-icons/md";
 
-const theHangDescription =
-  "This was created for musicians worldwide to connect with one another and help facilitate finding other musicians for various projects. A collection of musicians throughout the world. The ultimate rollidex! As a musician, you're able to sign in with your Google account. Once signed in, you can continue to complete your profile. This will help other musicians find you based on your location, instruments and type of gigs you want to play.";
+// const theHangDescription =
+//   "This was created for musicians worldwide to connect with one another and help facilitate finding other musicians for various projects. A collection of musicians throughout the world. The ultimate rollidex! As a musician, you're able to sign in with your Google account. Once signed in, you can continue to complete your profile. This will help other musicians find you based on your location, instruments and type of gigs you want to play.";
 
-const watirDescription = "W.A.T.I.R. (Web Application To Irrigation Records)";
+// const watirDescription = "W.A.T.I.R. (Web Application To Irrigation Records)";
 
-const cosmoDescription =
-  "C.O.S.M.O. (Client Oriented Service Management Operations)";
+// const cosmoDescription =
+//   "C.O.S.M.O. (Client Oriented Service Management Operations)";
 
 const flatironHighlightsArray = [
   "Sinatra",

@@ -43,10 +43,7 @@ function GoogleCalendar() {
 		// }
 	};
 	
-// if (size.width > 501) {
-// 	true
-// }
-
+if (size.width > 501) {
   return (
     <div className="google-calendar">
       <div
@@ -63,6 +60,25 @@ function GoogleCalendar() {
       </div>
     </div>
   );
+
+}
+
+  // return (
+  //   <div className="google-calendar">
+  //     <div
+  //       style={{
+  //         width: "90%",
+  //         paddingTop: "50px",
+  //         paddingBottom: "50px",
+  //         margin: "auto",
+  //         maxWidth: "100%",
+	// 				minWidth: "500px"
+  //       }}
+  //     >
+  //       <Calendar apiKey={API_KEY} calendars={calendars} styles={styles} />
+  //     </div>
+  //   </div>
+  // );
 }
 
 export default GoogleCalendar;
