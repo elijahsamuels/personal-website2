@@ -1,11 +1,11 @@
 import React from "react";
-// import GoogleCalendar from "../../staticComponents/GoogleCalendar"
+import GoogleCalendar from "../../staticComponents/GoogleCalendar"
 
 function Calendar() {
   return (
     <React.Fragment>
       <h1>Calendar</h1>
-			{/* <GoogleCalendar/> */}
+			<GoogleCalendar/>
     </React.Fragment>
   );
 }
