@@ -2,6 +2,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 // import Greeting from "./components/Greeting";
 import About from "./components/About";
+import Index from "./components/Index";
 import Music from "./components/Music";
 import Calendar from "./components/music/Calendar";
 import Transcriptions from "./components/music/Transcriptions";
@@ -22,9 +23,9 @@ function App() {
         <Navbar />
       </header>
 
-      <header className="App-header">
+      <div className="App-header">
         <Routes>
-          <Route path="/" />
+          <Route path="/" element={<Index />}/>
           <Route path="about" element={<About />} />
           <Route path="music" element={<Music />}>
             <Route path="calendar" element={<Calendar />} />
@@ -39,10 +40,8 @@ function App() {
           <Route path="contact" element={<Contact />} />
         </Routes>
 
-        <header className="Footer">
-          <Footer />
-        </header>
-      </header>
+      </div>
+			<Footer />
     </div>
   );
 }
