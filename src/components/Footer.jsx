@@ -1,10 +1,11 @@
 import React from "react";
 import { SiFacebook, SiLinkedin, SiGithub } from "react-icons/si";
 import { VscMail } from "react-icons/vsc";
+import "./Footer.css"
 
 const Footer = () => {
   return (
-    <div>
+    <footer className="Footer">
       <a
         href="https://www.linkedin.com/in/elijahsamuels"
         target="_blank"
@@ -37,7 +38,7 @@ const Footer = () => {
       >
         <VscMail size="1em" />
       </a>
-    </div>
+    </footer>
   );
 };
 
