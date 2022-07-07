@@ -1,15 +1,10 @@
 .Footer {
   position: relative;
-  bottom: 2em;
   width: 100%;
-  /* height: calc(1px); */
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   justify-content: center;
   background-color: #282c34;
-  /* margin-top: 2em; */
-  /* margin-bottom: 0.25em; */
   font-size: calc(10px + 2vmin);
 
 }
@@ -18,9 +13,9 @@
   padding: 0.25em;
 }
 
-/* .social-media-icon:hover {
-  transform: scale(2);
-} */
+.social-media-icon:hover {
+  transform: scale(1.2);
+}
 
 .link {
   text-decoration: none;
