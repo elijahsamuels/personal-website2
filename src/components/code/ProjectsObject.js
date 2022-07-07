@@ -29,6 +29,20 @@ const Projects = [
     github_link: "https://github.com/elijahsamuels/qrcode",
   },
   {
+    name: "D3.js",
+    description: "Examples visualizing data using D3.js",
+    skills_used: [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "Netlify",
+      "Github",
+    ],
+    prod_link: "https://es-d3js.netlify.app/",
+    github_link: "https://github.com/elijahsamuels/d3-starter",
+  },
+  {
     name: "ElijahSamuels.com",
     description: "Personal website project",
     skills_used: ["React", "JavaScript", "CSS", "HTML", "Netlify", "Github"],
