@@ -1,9 +1,9 @@
 import React from "react";
 import Timeline from "./Timeline.jsx";
-
+import "./About.css"
 const About = () => {
   return (
-    <div className="page">
+    <div className="about">
       <h2>About</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a ipsa
