@@ -32,7 +32,7 @@ function Greeting() {
   ];
 
   const greeting = hello[Math.floor(Math.random() * hello.length)];
-	console.log('greeting:', greeting);
+  console.log("greeting:", greeting);
 
   const [ , setTime] = useState(Date.now());
 
@@ -43,7 +43,12 @@ function Greeting() {
     };
   }, []);
 
-  return <div className="greeting">{ColorChanger(greeting)}</div>;
+  return (
+    <div className="greeting">
+      <div>{ColorChanger(greeting)}</div>
+      <div>{ColorChanger("I'm Elijah Samuels")}</div>
+    </div>
+  );
 }
 
 export default Greeting;
