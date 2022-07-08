@@ -1,4 +1,4 @@
-import React, { useId } from "react";
+import React, { useEffect, useId, useState } from "react";
 import ProjectsObject from "./ProjectsObject";
 import "./Projects.css";
 import { SiGithub, SiNetlify, SiHeroku, SiApplemusic } from "react-icons/si";
@@ -6,20 +6,31 @@ import { SiGithub, SiNetlify, SiHeroku, SiApplemusic } from "react-icons/si";
 function Projects() {
   let id = useId();
 
+const [projectHover, setProjectHover] = useState("project");
+
+// useEffect(() => {
+// 	if (/* element is hovered */) {
+// 		setProjectHover("project")
+
+// 	}
+// }, [projectHover])
+
+console.log('projectHover:', projectHover);
   const prodLinkReturn = (linkProps) => {
+		let size = "1em"
     if (linkProps.includes("netlify")) {
-      return <SiNetlify size="1em" />;
+      return <SiNetlify size={size} />;
     } else if (linkProps.includes("heroku")) {
-      return <SiHeroku size="1em" />;
+      return <SiHeroku size={size} />;
     } else {
-      return <SiApplemusic size="1em" />;
+      return <SiApplemusic size={size} />;
     }
   };
 
   const ProjectsReturn = () => {
     return ProjectsObject.map((project) => {
       return (
-        <div className="project" key={`${project.name}-${id}`}>
+        <div className={projectHover} key={`${project.name}-${id}`}>
           <a href={project.prod_link} className={"prod-link"}>
             <div className="project-name">{project.name}</div>
           </a>

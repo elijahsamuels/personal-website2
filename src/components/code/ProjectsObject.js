@@ -34,6 +34,7 @@ const Projects = [
     skills_used: [
       "React",
       "JavaScript",
+      "D3.js",
       "CSS",
       "HTML",
       "Netlify",
