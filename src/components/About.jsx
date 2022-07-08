@@ -1,24 +1,16 @@
 import React from "react";
 import Timeline from "./Timeline.jsx";
-import "./About.css"
+import "./About.css";
 const About = () => {
   return (
     <div className="about">
-      <h2>About</h2>
+      <h4>About</h4>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a ipsa
-        distinctio quos libero commodi cum assumenda dicta inventore, enim
-        nesciunt doloremque sit deserunt! Aut dicta blanditiis saepe
-        necessitatibus illo? Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Officiis a ipsa distinctio quos libero commodi cum assumenda dicta
-        inventore, enim nesciunt doloremque sit deserunt! Aut dicta blanditiis
-        saepe necessitatibus illo? Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Officiis a ipsa distinctio quos libero commodi cum
-        assumenda dicta inventore, enim nesciunt doloremque sit deserunt! Aut
-        dicta blanditiis saepe necessitatibus illo? Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Officiis a ipsa distinctio quos libero
-        commodi cum assumenda dicta inventore, enim nesciunt doloremque sit
-        deserunt! Aut dicta blanditiis saepe necessitatibus illo?
+        As a recent graduate of the Flatiron School who studied software
+        engineering with a focus on Ruby on Rails and Javascript, I love working
+        through puzzles and solving problems. I love the beauty in simplisticity
+        and efficiency. I've found life is enjoyable if you can have fun with
+        and laugh at the bugs.
       </p>
       <div>
         <Timeline />
