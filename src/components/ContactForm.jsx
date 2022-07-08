@@ -5,7 +5,6 @@ const ContactForm = () => {
 
   const handleSubmit = async e => {
     e.preventDefault()
-
     setStatus("Sending...")
 
     const { name, email, message } = e.target.elements

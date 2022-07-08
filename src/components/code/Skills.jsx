@@ -6,7 +6,7 @@ function Skills() {
   return (
     <div>
       <CodeSkills />
-      <SoftSkills />
+      {/* <SoftSkills /> */}
     </div>
   );
 }
