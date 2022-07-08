@@ -10,31 +10,36 @@ import {
   SiRuby,
   SiMaterialui,
 } from "react-icons/si";
+import CodeCertifications from "./CodeCertifications"
+import "./CodeSkills.css"
 
 const codewarsURL = "https://www.codewars.com/users/elijahsamuels/badges/large";
 
 function CodeSkills() {
   return (
-    <div >
-      <div>
-        <span>Skill Sets</span>
+    <div>
+
+			<CodeCertifications />
+			
+        <h4>Skill Sets</h4>
+      <div >
         <br />
-        <div justify="center">
+        <div className="code-skills">
           <SiRuby fill={"rgb(255, 20, 90)"} className={"svg"} />
           <SiRubyonrails className={"svg"} />
           <SiApplemusic className={"svg"} />
         </div>
-        <div justify="center">
+        <div className="code-skills">
           <SiJavascript className={"svg"} />
           <SiReact fill={"rgb(80, 80, 200)"} className={"svg"} />
           <SiRedux className={"svg"} />
         </div>
-        <div justify="center">
+        <div className="code-skills">
           <SiMaterialui className={"svg"} />
           <SiMysql className={"svg"} />
           <SiPostgresql className={"svg"} />
         </div>
-        <div>
+        <div className="code-skills">
           <img src={codewarsURL} alt="codewars_image" />
         </div>
       </div>
