@@ -12,18 +12,13 @@ function Code() {
         <Link to="projects" className="link">
           Projects
         </Link>
-      </div>
-      <div>
+      {/* </div>
+      <div> */}
         <Link to="skills" className="link">
           Skills
         </Link>
       </div>
-
-      {/* <CodeSkills /> */}
-      {/* <Projects /> */}
-      {/* <SoftSkills /> */}
-			<Outlet />
-
+      <Outlet />
     </div>
   );
 }
