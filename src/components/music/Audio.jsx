@@ -26,7 +26,7 @@ function Audio() {
         <Player src={"https://www.mboxdrive.com/(z2.fm)2.mp3"}/>
       </div>
     </div>
-
+		
 
 
 
