@@ -1,19 +1,34 @@
-import React from 'react'
+import React from "react";
+import YoutubeEmbed from "./youtubeEmbed";
 
 function Video() {
-	return (
-		<React.Fragment>
-			<h2>Video</h2>
-			<div>List of Video</div>
-			<ul>
-				<li>Video Player</li>
-				<li>Video Player</li>
-				<li>Video Player</li>
-				<li>Video Player</li>
-			</ul>
-
-			</React.Fragment>
-	)
+  return (
+    <React.Fragment>
+      <h2>Video</h2>
+      <div className="video">
+        {/* Strike Up the Band */}
+        <YoutubeEmbed embedId="T0NnIzwwK20" />
+        {/* Dindi */}
+        <YoutubeEmbed embedId="dJZPO3rudog" />
+        {/* Girl Talk */}
+        <YoutubeEmbed embedId="YBouJt3tjHw" />
+        {/* Young At Heart */}
+        <YoutubeEmbed embedId="WAWXu60xzlk" />
+      </div>
+    </React.Fragment>
+  );
 }
 
-export default Video
+export default Video;
+
+// Strike Up the Band
+// https://www.youtube.com/watch?v=T0NnIzwwK20
+
+// Dindi
+// https://www.youtube.com/watch?v=dJZPO3rudog
+
+// Girl Talk
+// https://www.youtube.com/watch?v=YBouJt3tjHw
+
+// Young At Heart
+// https://www.youtube.com/watch?v=WAWXu60xzlk
