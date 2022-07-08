@@ -1,6 +1,6 @@
 import React from "react";
 import CodeSkills from "./CodeSkills";
-import SoftSkills from "./SoftSkills";
+// import SoftSkills from "./SoftSkills";
 
 function Skills() {
   return (
