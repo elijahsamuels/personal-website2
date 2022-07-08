@@ -50,6 +50,7 @@ const duHighlightsArray = [
   "Directed, recruited & arranged for the University Jazz Ensemble",
   "Taught private saxophone lessons to non-majors",
   "Maintained jazz studies music library",
+  "Teaching assistant",
 ];
 
 const imlHighlightsArray = [
@@ -57,7 +58,7 @@ const imlHighlightsArray = [
   "Organized 1000+ musicians throughout CO, NM, ID, WY, NE, KS, MO, TX, UT, AR, KY states",
 ];
 
-const sfsuHighlightsArray = ["Graduated cum laude"];
+const sfsuHighlightsArray = ["Graduated cum laude", "Teaching assistant"];
 
 function listReturn(skillsArray) {
   return skillsArray.map((skill) => <li key={skill}>{skill}</li>);
@@ -85,8 +86,7 @@ const Timeline = () => {
           date="2020 - 2021"
           dateClassName={"timeline-date"}
           icon={<FaLaptopCode size="2em" />}
-          iconClassName={"icon-class"}
-        >
+          iconClassName={"icon-class"}>
           <h4 className="vertical-timeline-element-title">Flatiron School</h4>
           <h6 className="vertical-timeline-element-subtitle">
             Full Stack Developer Certifcation (525 hours)
@@ -137,7 +137,7 @@ const Timeline = () => {
           </p>
         </VerticalTimelineElement>
 
-        {/* IML  */}
+        {/*---- IML ----*/}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={contentStyle}
@@ -146,8 +146,7 @@ const Timeline = () => {
           date="2014 - present"
           dateClassName={"timeline-date"}
           icon={<SiApplemusic size="2em" />}
-          iconClassName={"icon-class"}
-        >
+          iconClassName={"icon-class"}>
           <h4 className="vertical-timeline-element-title">
             International Artists League
           </h4>
@@ -157,7 +156,7 @@ const Timeline = () => {
           <p>{listReturn(imlHighlightsArray)}</p>
         </VerticalTimelineElement>
 
-        {/* University of Colorado Denver */}
+        {/*---- University of Colorado Denver ----*/}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={contentStyle}
@@ -166,8 +165,7 @@ const Timeline = () => {
           date="2014 - 2018"
           dateClassName={"timeline-date"}
           icon={<SiApplemusic size="2em" />}
-          iconClassName={"icon-class"}
-        >
+          iconClassName={"icon-class"}>
           <h4 className="vertical-timeline-element-title">
             University of Colorado Denver
           </h4>
@@ -177,7 +175,7 @@ const Timeline = () => {
           <p>{listReturn(ucdHighlightsArray)}</p>
         </VerticalTimelineElement>
 
-        {/* Kent Denver School */}
+        {/*---- Kent Denver School ----*/}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={contentStyle}
@@ -186,8 +184,7 @@ const Timeline = () => {
           date="2013 - 2018"
           dateClassName={"timeline-date"}
           icon={<SiApplemusic size="2em" />}
-          iconClassName={"icon-class"}
-        >
+          iconClassName={"icon-class"}>
           <h4 className="vertical-timeline-element-title">
             Kent Denver School
           </h4>
@@ -197,7 +194,7 @@ const Timeline = () => {
           <p>{listReturn(kentHighlightsArray)}</p>
         </VerticalTimelineElement>
 
-        {/* University of Denver */}
+        {/*---- University of Denver ----*/}
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={contentStyle}
@@ -206,8 +203,7 @@ const Timeline = () => {
           date="2011 - 2013"
           dateClassName={"timeline-date"}
           icon={<MdSchool size="2em" />}
-          iconClassName={"icon-class"}
-        >
+          iconClassName={"icon-class"}>
           <h4 className="vertical-timeline-element-title">
             University of Denver
           </h4>
@@ -217,7 +213,7 @@ const Timeline = () => {
           <p>{listReturn(duHighlightsArray)}</p>
         </VerticalTimelineElement>
 
-        {/* San Francisco State University */}
+        {/*---- San Francisco State University ----*/}
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={contentStyle}
@@ -226,8 +222,7 @@ const Timeline = () => {
           date={"2004 - 2007"}
           dateClassName={"timeline-date"}
           icon={<MdSchool size="2em" />}
-          iconClassName={"icon-class"}
-        >
+          iconClassName={"icon-class"}>
           <h4 className="vertical-timeline-element-title">
             San Francisco State University
           </h4>
@@ -237,7 +232,7 @@ const Timeline = () => {
           <p>{listReturn(sfsuHighlightsArray)}</p>
         </VerticalTimelineElement>
 
-        {/* Last circle */}
+        {/*---- Last circle ----*/}
         <VerticalTimelineElement
           iconStyle={{
             background:
