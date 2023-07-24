@@ -4,19 +4,19 @@ import { Routes, Route } from "react-router-dom";
 import About from "./components/About";
 import Index from "./components/Index";
 import Music from "./components/Music";
-import Calendar from "./components/music/Calendar";
-import Transcriptions from "./components/music/Transcriptions";
-import Audio from "./components/music/Audio";
-import Video from "./components/music/Video";
+import Calendar from "./components/Music/Calendar";
+import Transcriptions from "./components/Music/Transcriptions";
+import Audio from "./components/Music/Audio";
+import Video from "./components/Music/Video";
 import Code from "./components/Code";
-import Projects from "./components/code/Projects";
-import Skills from "./components/code/Skills";
+import Projects from "./components/Code/Projects";
+import Skills from "./components/Code/Skills";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 // import { Navbar2 as Navbar } from "./components/Navbar2";
 import Contact from "./components/Contact";
 
-function App() {
+const App = () => {
   return (
     <div>
       <header className="Navbar">
@@ -25,7 +25,7 @@ function App() {
 
       <div className="App-header">
         <Routes>
-          <Route path="/" element={<Index />}/>
+          <Route path="/" element={<Index />} />
           <Route path="about" element={<About />} />
           <Route path="music" element={<Music />}>
             <Route path="calendar" element={<Calendar />} />
@@ -33,17 +33,16 @@ function App() {
             <Route path="audio" element={<Audio />} />
             <Route path="video" element={<Video />} />
           </Route>
-          <Route path="code" element={<Code />} >
-						<Route path="projects" element={<Projects />} />
-						<Route path="skills" element={<Skills />} />
-					</Route>
+          <Route path="code" element={<Code />}>
+            <Route path="projects" element={<Projects />} />
+            <Route path="skills" element={<Skills />} />
+          </Route>
           <Route path="contact" element={<Contact />} />
         </Routes>
-
       </div>
-			<Footer />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;

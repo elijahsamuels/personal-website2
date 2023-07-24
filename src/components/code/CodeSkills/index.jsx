@@ -10,19 +10,18 @@ import {
   SiRuby,
   SiMaterialui,
 } from "react-icons/si";
-import CodeCertifications from "./CodeCertifications"
-import "./CodeSkills.css"
+import CodeCertifications from "../CodeCertifications";
+import "./CodeSkills.css";
 
 const codewarsURL = "https://www.codewars.com/users/elijahsamuels/badges/large";
 
-function CodeSkills() {
+const CodeSkills = () => {
   return (
     <div>
+      <CodeCertifications />
 
-			<CodeCertifications />
-			
-        <h4>Skill Sets</h4>
-      <div >
+      <h4>Skill Sets</h4>
+      <div>
         <br />
         <div className="code-skills">
           <SiRuby fill={"rgb(255, 20, 90)"} className={"svg"} />
@@ -45,6 +44,6 @@ function CodeSkills() {
       </div>
     </div>
   );
-}
+};
 
 export default CodeSkills;

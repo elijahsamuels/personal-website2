@@ -1,9 +1,9 @@
 import React from "react";
-import YoutubeEmbed from "./youtubeEmbed";
+import YoutubeEmbed from "../util/youtubeEmbed";
 
-function Video() {
+const Video = () => {
   return (
-    <React.Fragment>
+    <div>
       <h2>Video</h2>
       <div className="video">
         {/* Strike Up the Band */}
@@ -15,9 +15,9 @@ function Video() {
         {/* Young At Heart */}
         <YoutubeEmbed embedId="WAWXu60xzlk" />
       </div>
-    </React.Fragment>
+    </div>
   );
-}
+};
 
 export default Video;
 

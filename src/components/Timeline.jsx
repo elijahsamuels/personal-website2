@@ -60,9 +60,9 @@ const imlHighlightsArray = [
 
 const sfsuHighlightsArray = ["Graduated cum laude", "Teaching assistant"];
 
-function listReturn(skillsArray) {
+const listReturn = (skillsArray) => {
   return skillsArray.map((skill) => <li key={skill}>{skill}</li>);
-}
+};
 
 const contentStyle = {
   background: "rgb(5, 0, 70)",
@@ -76,7 +76,7 @@ const iconStyle = {
 
 const Timeline = () => {
   return (
-    <React.Fragment>
+    <div>
       <VerticalTimeline animate={true} layout={"1-column-left"}>
         <VerticalTimelineElement
           id="flatiron-school"
@@ -243,7 +243,7 @@ const Timeline = () => {
           iconClassName={"icon-class"}
         />
       </VerticalTimeline>
-    </React.Fragment>
+    </div>
   );
 };
 

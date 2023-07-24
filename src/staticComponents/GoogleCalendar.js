@@ -14,7 +14,7 @@ let calendars = [
 	{ calendarId: GIGS_CALENDAR_ID},
 ];
 
-function GoogleCalendar() {
+const GoogleCalendar = () => {
 	const size = useWindowSize();
 
 	let styles = {

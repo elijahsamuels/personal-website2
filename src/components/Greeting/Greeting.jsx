@@ -2,7 +2,7 @@
 // import React, { useState, useEffect } from "react";
 // import ColorChanger from "../staticComponents/ColorChanger";
 
-// function Greeting() {
+// const Greeting = () => {
 //   const hello = [
 //     "Hello",
 //     "Hi",

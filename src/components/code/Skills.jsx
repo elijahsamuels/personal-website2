@@ -2,13 +2,13 @@ import React from "react";
 import CodeSkills from "./CodeSkills";
 // import SoftSkills from "./SoftSkills";
 
-function Skills() {
+const Skills = () => {
   return (
     <div>
       <CodeSkills />
       {/* <SoftSkills /> */}
     </div>
   );
-}
+};
 
 export default Skills;

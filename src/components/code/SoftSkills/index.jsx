@@ -1,7 +1,7 @@
 import React from "react";
 import softSkillsObject from "./SoftSkillsObject.js";
 
-function SoftSkills() {
+const SoftSkills = () => {
 
   const SkillsReturn = () => {
     let skillsTitleArray = Object.keys(softSkillsObject);

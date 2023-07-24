@@ -2,7 +2,7 @@ import React from "react";
 import { Outlet, Link } from "react-router-dom";
 // import GoogleCalendar from "./music/Calendar.jsx";
 
-function Music() {
+const Music = () => {
   return (
     <div>
       <h2>Music</h2>
@@ -44,6 +44,6 @@ function Music() {
       <Outlet />
     </div>
   );
-}
+};
 
 export default Music;

@@ -1,5 +1,5 @@
 import React from "react";
-import Timeline from "./Timeline.jsx";
+import Timeline from "../Timeline.jsx";
 import "./About.css";
 const About = () => {
   return (

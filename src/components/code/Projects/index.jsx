@@ -3,7 +3,7 @@ import ProjectsObject from "./ProjectsObject";
 import "./Projects.css";
 import { SiGithub, SiNetlify, SiHeroku, SiApplemusic } from "react-icons/si";
 
-function Projects() {
+const Projects = () => {
   let id = useId();
 
   // const [projectHover, setProjectHover] = useState("project");
@@ -66,6 +66,6 @@ function Projects() {
       <ProjectsReturn />
     </div>
   );
-}
+};
 
 export default Projects;

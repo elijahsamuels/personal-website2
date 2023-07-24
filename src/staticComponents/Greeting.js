@@ -1,9 +1,8 @@
-/* eslint-disable no-lone-blocks */
 import React, { useState, useEffect } from "react";
 import ColorChanger from "./ColorChanger";
 import "./Greeting.css";
 
-function Greeting() {
+const Greeting = () => {
   const hello = [
     "Hello",
     "Hi",
@@ -31,8 +30,7 @@ function Greeting() {
     "Kumusta",
   ];
 
-  const greeting = hello[Math.floor(Math.random() * hello.length)];
-  console.log("greeting:", greeting);
+  const greeting = hello[Math.floor(Math.random() * hello.length-1)];
 
   const [ , setTime] = useState(Date.now());
 

@@ -1,13 +1,13 @@
 import React from "react";
-import ContactForm from "./ContactForm";
+import ContactForm from "../ContactForm";
 
-function Contact() {
+const Contact = () => {
   return (
-    <React.Fragment>
+    <div>
       <h2>Contact</h2>
       <ContactForm />
-    </React.Fragment>
+    </div>
   );
-}
+};
 
 export default Contact;

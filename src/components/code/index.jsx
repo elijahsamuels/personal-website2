@@ -4,7 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 // import CodeSkills from "./code/CodeSkills";
 // import SoftSkills from "./code/SoftSkills";
 
-function Code() {
+const Code = () => {
   // let id = useId();
   return (
     <div>
@@ -12,7 +12,7 @@ function Code() {
         <Link to="projects" className="link">
           Projects
         </Link>
-      {/* </div>
+        {/* </div>
       <div> */}
         <Link to="skills" className="link">
           Skills
@@ -21,6 +21,6 @@ function Code() {
       <Outlet />
     </div>
   );
-}
+};
 
 export default Code;

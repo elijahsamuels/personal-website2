@@ -1,28 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../images/logo.png";
-import useWindowSize from "../hooks/useWindowSize";
+import logo from "../../images/logo.png";
+import useWindowSize from "../../hooks/useWindowSize";
 import { VscMenu } from "react-icons/vsc";
 
 const handleMiniNavbarClick = () => {
-  // console.log("handleMiniNavbar clicked");
   let navbar = document.getElementsByClassName("Navbar");
-
   return navbar.createElement("<div>hello</div>");
-  // return .append(
-  //   <span>
-  //     <NavLink to="/about" className="nav-link">
-  //       About
-  //     </NavLink>
-  //   </span>
-  // );
 };
 
-function Navbar() {
+const Navbar = () => {
   const size = useWindowSize();
 
   if (size.width > 501) {
-    // console.log("window:", size.width);
     return (
       <nav className="Navbar">
         <span className="Navbar-item-right">
@@ -42,8 +32,6 @@ function Navbar() {
             Contact
           </NavLink>
         </span>
-        {/* <
-        {/* </span> */}
       </nav>
     );
   } else {
@@ -57,6 +45,6 @@ function Navbar() {
       </nav>
     );
   }
-}
+};
 
 export default Navbar;

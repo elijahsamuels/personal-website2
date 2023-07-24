@@ -1,9 +1,9 @@
 import React from "react";
-import awsCert from "../../images/awsCourseCompletionCert.jpg";
-import flatironCert from "../../images/flatironcert.jpg";
+import awsCert from "../../../images/awsCourseCompletionCert.jpg";
+import flatironCert from "../../../images/flatironcert.jpg";
 import "./CodeCertifications.css";
 
-function CodeCertifications() {
+const CodeCertifications = () => {
   return (
     <div>
       <h4>Code Certifications</h4>
