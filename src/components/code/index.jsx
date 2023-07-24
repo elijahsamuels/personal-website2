@@ -8,16 +8,12 @@ const Code = () => {
   // let id = useId();
   return (
     <div>
-      <div>
         <Link to="projects" className="link">
           Projects
         </Link>
-        {/* </div>
-      <div> */}
         <Link to="skills" className="link">
           Skills
         </Link>
-      </div>
       <Outlet />
     </div>
   );

@@ -10,6 +10,16 @@ const AudioObjects = [
   // 	local_image_path: "",
   // },
   {
+    album_title: "High Fidelity - Joe Smith & The Spicy Pickles",
+    song_title: "song_title",
+    genre: "Jazz",
+    description: "description",
+    link: "https://www.mboxdrive.com/kaalan2.mp3",
+    album_image_url:
+      "https://f4.bcbits.com/img/a2132142822_16.jpg",
+    local_image_path: "",
+  },
+  {
     album_title: "New Chapter - Jason Klobnak",
     song_title: "song_title",
     genre: "Jazz",

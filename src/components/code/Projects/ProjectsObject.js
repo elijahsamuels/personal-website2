@@ -3,7 +3,7 @@ const Projects = [
     name: "Wordle-clone",
     description: "A clone of the popular word game, Wordle!",
     skills_used: ["JavaScript", "Node", "CSS", "HTML", "Heroku", "Github"],
-    prod_link: "https://es-wordle.herokuapp.com/",
+    prod_link: "https://wordle-5.netlify.app/",
     github_link: "https://github.com/elijahsamuels/wordle-clone",
   },
   {
@@ -26,6 +26,20 @@ const Projects = [
       "Github",
     ],
     prod_link: "https://free-qrcode.netlify.app",
+    github_link: "https://github.com/elijahsamuels/qrcode",
+  },
+  {
+    name: "Weather App",
+    description: "Check the weather a city",
+    skills_used: [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "Netlify",
+      "Github",
+    ],
+    prod_link: "https://es-weather.netlify.app/",
     github_link: "https://github.com/elijahsamuels/qrcode",
   },
   {
