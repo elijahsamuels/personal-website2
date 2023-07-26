@@ -8,7 +8,7 @@ import {
   SiReact,
   SiRedux,
   SiRuby,
-  SiMaterialui,
+  SiMui,
 } from "react-icons/si";
 import CodeCertifications from "../CodeCertifications";
 import "./CodeSkills.css";
@@ -34,7 +34,7 @@ const CodeSkills = () => {
           <SiRedux className={"svg"} />
         </div>
         <div className="code-skills">
-          <SiMaterialui className={"svg"} />
+          <SiMui className={"svg"} />
           <SiMysql className={"svg"} />
           <SiPostgresql className={"svg"} />
         </div>
