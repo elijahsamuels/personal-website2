@@ -8,9 +8,9 @@ import Calendar from "./components/Music/Calendar";
 import Transcriptions from "./components/Music/Transcriptions";
 import Audio from "./components/Music/Audio";
 import Video from "./components/Music/Video";
-import Code from "./components/Code";
-import Projects from "./components/Code/Projects";
-import Skills from "./components/Code/Skills";
+// import Code from "./components/Code";
+// import Projects from "./components/Code/Projects";
+// import Skills from "./components/Code/Skills";
 import Footer from "./components/Footer";
 import Navbar from "./components/NavBar";
 // import { Navbar2 as Navbar } from "./components/Navbar2";
@@ -33,10 +33,10 @@ const App = () => {
             <Route path="audio" element={<Audio />} />
             <Route path="video" element={<Video />} />
           </Route>
-          <Route path="code" element={<Code />}>
+          {/* <Route path="code" element={<Code />}>
             <Route path="projects" element={<Projects />} />
             <Route path="skills" element={<Skills />} />
-          </Route>
+          </Route> */}
           <Route path="contact" element={<Contact />} />
         </Routes>
       </div>
