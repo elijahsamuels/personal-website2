@@ -1,5 +1,5 @@
 import React from "react";
-import CodeSkills from "./CodeSkills";
+import CodeSkills from "../CodeSkills";
 // import SoftSkills from "./SoftSkills";
 
 const Skills = () => {
