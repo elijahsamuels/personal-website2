@@ -30,7 +30,7 @@ const Greeting = () => {
     "Kumusta",
   ];
 
-  const greeting = hello[Math.floor(Math.random() * hello.length-1)];
+  const greeting = hello[Math.floor(Math.random() * hello?.length - 1)];
 
   const [ , setTime] = useState(Date.now());
 

@@ -3,7 +3,7 @@ import "./ColorChanger.css";
 
 const ColorChanger = (string) => {
   let stringedArray = string?.split("");
-  let randomLetterIndex = Math.floor(Math.random() * stringedArray.length);
+  let randomLetterIndex = Math.floor(Math.random() * stringedArray?.length);
 
   let str1 = string.slice(0, randomLetterIndex);
   let myWhiteString1 = <span style={{ color: "white" }}> {str1} </span>;
