@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import Player from "../util/player.js";
 import AudioObjects from "../util/AudioObject.js";
 import "./Audio.css";
 
 const Audio = () => {
-  const [isHovered, setIsHovered] = useState(false);
+  // const [isHovered, setIsHovered] = useState(false);
 
-  const handleMouseOver = (e) => {
-    console.log("e.target.name:", e.target.name);
-    setIsHovered(true);
-  }
+  // const handleMouseOver = (e) => {
+  //   console.log("e.target.name:", e.target.name);
+    // setIsHovered(true);
+  // }
 
   const PlayerReturn = () => {
     return AudioObjects.map((audio) => {
@@ -37,7 +37,7 @@ const Audio = () => {
             // onMouseLeave={(e) => setIsHovered(false)}
             // onMouseOver={handleMouseOver}
           />
-          {isHovered && <div>hello i was hidden</div>}
+          {/* {isHovered && <div>hello i was hidden</div>} */}
 
           <div className="audio-player">
             <Player src={audio.link} />
