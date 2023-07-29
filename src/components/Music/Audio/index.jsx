@@ -11,7 +11,7 @@ const Audio = () => {
     // setIsHovered(true);
   // }
 
-  const PlayerReturn = () => {
+  const PlayerReturn = () => {	
     return AudioObjects.map((audio) => {
       // const AlbumImageAndDetails = () => {
       //   return <div >
